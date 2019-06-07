@@ -1,0 +1,19 @@
+{
+  "name": "rmq-sub",
+  "version": "1.0.0",
+  "description": "Simple PUB/SUB for RabbitMQ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "RabbitMQ",
+    "pub/sub"
+  ],
+  "repository": "https://github.com/FreeBugs/rmq-sub.git",
+  "author": "Daniel Arnold",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.5.3"
+  }
+}
